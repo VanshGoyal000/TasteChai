@@ -15,7 +15,7 @@ res.send("you learned hello world")
 })
 
 app.get('/chai',(req,res)=>{
-  res.send("garam masala chai")
+  res.send("garam masala chai peelo")
   })
 
 app.get('/login',(req,res)=>{
