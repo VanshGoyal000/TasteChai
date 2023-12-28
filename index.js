@@ -14,6 +14,10 @@ app.get('/twitter',(req,res)=>{
 res.send("you learned hello world")
 })
 
+app.get('/chai',(req,res)=>{
+  res.send("garam masala chai")
+  })
+
 app.get('/login',(req,res)=>{
     res.send('<h1>login page</h1>')
     })
